@@ -277,6 +277,7 @@ video, .sartor-img2 {
     video, .sartor-img2{
         margin-top: 70px;
         height: 100%;
+        width: auto;
     }
 
     .sartor-head-txt{
