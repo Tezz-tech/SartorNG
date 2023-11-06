@@ -271,7 +271,7 @@ video, .sartor-img2 {
 @media (max-width: 430px) {
 
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
         text-align: center;
     }
 
@@ -282,6 +282,10 @@ video, .sartor-img2 {
     video, .sartor-img2{
         margin-top: 70px;
         
+    }
+
+    .sartor-link{
+        margin: 0px;
     }
 
     .sartor-overlay{
