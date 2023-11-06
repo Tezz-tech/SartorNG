@@ -90,7 +90,7 @@ video, .sartor-img2 {
 }
 
 .sartor-head {
-    font-size: 4.0625rem;
+    font-size: 40px;
     font-weight: 550;
 }
 
@@ -258,11 +258,25 @@ video, .sartor-img2 {
     .sartor-margin{
         margin: 0px !important;
     }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .footer{
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 430px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    
     video, .sartor-img2{
         margin-top: 70px;
+        height: 100%;
     }
 
     .sartor-head-txt{
